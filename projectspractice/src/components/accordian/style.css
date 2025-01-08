@@ -1,0 +1,34 @@
+.wrapper{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.wrapper button{
+    background: #b87e57;
+    color: white;
+    padding: 20px 10px;
+    font-weight: bold;
+}
+.accordian{
+    width: 400px;
+}
+
+.item{
+    background: #b87e57;
+    padding: auto;
+    margin-bottom: auto;
+}
+
+.title{
+    color: beige;
+    cursor: pointer;
+    align-items: center;
+}
+.content{
+    color: azure;
+}

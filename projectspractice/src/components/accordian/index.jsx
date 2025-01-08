@@ -1,9 +1,11 @@
 import { useState } from "react";
 import data from "./data";
+import './style.css';
 
 export default function Accordian(){
    
    const [selected,setSelected] = useState(null);
+   const [enableMultisection,setEnableMultiselection] = useState(false);
 
    function handleSingleSelection(grtCurrentId){
     console.log(grtCurrentId);
@@ -12,6 +14,7 @@ export default function Accordian(){
    }
    
     return <div className="wrapper">
+        <button>Enable Multiselection</button>
         <div className="accordian">
             {
                 data && data.length > 0 ? 
